@@ -1,0 +1,31 @@
+body {
+    background-color: #fae6e0;       /* soft peach – not white */
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 25px;
+}
+
+.container {
+    width: 300px;
+    margin: 20px auto;                /* centers horizontally */
+    padding: 15px;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #fff9f2;        /* very light cream – not pure white */
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+}
+
+.pet-name {
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #4a3729;
+    margin: 10px 0 2px 0;
+  }
